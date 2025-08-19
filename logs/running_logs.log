@@ -615,3 +615,23 @@ x==========x]
 [2025-08-19 13:40:26,362:INFO:_internal:127.0.0.1 - - [19/Aug/2025 13:40:26] "POST /predict HTTP/1.1" 200 -]
 [2025-08-19 13:40:46,437:INFO:_internal:127.0.0.1 - - [19/Aug/2025 13:40:46] "POST /predict HTTP/1.1" 200 -]
 [2025-08-19 13:41:13,008:INFO:_internal:127.0.0.1 - - [19/Aug/2025 13:41:13] "POST /predict HTTP/1.1" 200 -]
+[2025-08-19 13:44:55,040:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.175:8080]
+[2025-08-19 13:44:55,040:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2025-08-19 13:44:58,879:INFO:_internal:127.0.0.1 - - [19/Aug/2025 13:44:58] "GET / HTTP/1.1" 200 -]
+[2025-08-19 13:45:12,700:INFO:_internal:127.0.0.1 - - [19/Aug/2025 13:45:12] "POST /predict HTTP/1.1" 200 -]
+[2025-08-19 13:45:38,985:INFO:_internal:127.0.0.1 - - [19/Aug/2025 13:45:38] "POST /predict HTTP/1.1" 200 -]
+[2025-08-19 13:45:45,880:INFO:_internal:127.0.0.1 - - [19/Aug/2025 13:45:45] "POST /predict HTTP/1.1" 200 -]
+[2025-08-19 13:53:13,423:INFO:stage_04_model_evaluation:*******************]
+[2025-08-19 13:53:13,423:INFO:stage_04_model_evaluation:>>>>>> stage Evaluation stage started <<<<<<]
+[2025-08-19 13:53:13,424:INFO:common:YAML file: config/config.yaml loaded successfully]
+[2025-08-19 13:53:13,424:INFO:common:YAML file: params.yaml loaded successfully]
+[2025-08-19 13:53:13,424:INFO:common:created directory at: artifacts]
+[2025-08-19 13:53:19,472:INFO:common:json file saved at: scores.json]
+[2025-08-19 13:53:19,472:INFO:common:json file saved at: scores.json]
+[2025-08-19 13:53:21,704:INFO:builder_impl:Assets written to: /var/folders/6h/0lk621m94411dkbcgd43t2vc0000gn/T/tmpl7q3rv2c/model/data/model/assets]
+[2025-08-19 13:53:52,657:INFO:stage_04_model_evaluation:>>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
